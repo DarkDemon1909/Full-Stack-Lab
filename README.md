@@ -1,5 +1,8 @@
 **FULL STACK DEVELOPMENT LAB**
 
+**NAME : MANISH KUMAR**
+**USN : 1NH22CD061**
+
 
 This is the Github Repository which contains the experiments of Full stack development lab.
 
