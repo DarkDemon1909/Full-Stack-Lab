@@ -8,6 +8,7 @@ EXP 1 ( FORM SUBMISSION )
 
 EXP 2 (WEATHER FORECAST)
 
-![Uploading image.png…]
+<img width="1012" height="865" alt="image" src="https://github.com/user-attachments/assets/af439381-2e90-4924-9866-44bc7155f45b" />
+
 
 
