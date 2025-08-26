@@ -1,6 +1,6 @@
 **Student Admission Form**
 
-This project is a simple, single-page web application featuring a student admission form. It is built entirely with HTML, CSS, and vanilla JavaScript, focusing on robust client-side validation to ensure a good user experience.
+This project is a simple, single-page web application featuring a student admission form. It is built entirely with HTML, CSS, and JavaScript, focusing on robust client-side validation to ensure a good user experience.
 
 The form provides real-time feedback to the user by displaying clear error messages for invalid fields, and shows a success message only when all fields are correctly filled out.
 
@@ -24,16 +24,8 @@ HTML5: For the structure and content of the form.
 
 CSS3: For styling the form, including the layout, colors, and responsive design.
 
-JavaScript (Vanilla): For all the client-side logic, including event handling and form validation.
+JavaScript : For all the client-side logic, including event handling and form validation.
 
-How to Use
-Since this is a standalone project with no external dependencies, using it is very simple:
-
-Download the index.html file.
-
-Open the index.html file in any modern web browser like Google Chrome, Firefox, or Safari.
-
-Fill out the form to test the validation logic.
 
 Code Overview
 The entire application is contained within the index.html file.
