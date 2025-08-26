@@ -9,7 +9,9 @@ This is the Github Repository which contains the experiments of Full stack devel
 This project is a simple, single-page web application featuring a student admission form. It is built entirely with HTML, CSS, and JavaScript, focusing on robust client-side validation to ensure a good user experience.
 The form provides real-time feedback to the user by displaying clear error messages for invalid fields, and shows a success message only when all fields are correctly filled out.
 
+
 Features
+
 Clean User Interface: A modern, centered, and responsive form layout that works well on different screen sizes.
 
 Comprehensive Client-Side Validation: All form fields are validated using JavaScript before submission.
@@ -22,7 +24,9 @@ User-Friendly Inputs: Utilizes appropriate input types like email and date for b
 
 No Dependencies: Runs directly in the browser with no need for external libraries or frameworks.
 
+
 🛠️ Technologies Used
+
 HTML5: For the structure and content of the form.
 
 CSS3: For styling the form, including the layout, colors, and responsive design.
@@ -37,7 +41,9 @@ JavaScript : For all the client-side logic, including event handling and form va
 
 A clean and simple web application to get the current weather for any city in the world. This project uses the OpenWeatherMap API to fetch real-time weather data and display it in a user-friendly interface.
 
+
 Features
+
 Current Weather Data: Get up-to-date weather information for any city.
 
 Search by City: Easily search for a city by typing its name in the input field.
@@ -54,6 +60,7 @@ Wind speed (in m/s)
 
 
 🛠️ Technologies Used
+
 HTML5: For the basic structure of the web page.
 
 CSS3: For styling the application and making it responsive.
