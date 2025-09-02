@@ -99,25 +99,25 @@ display: none;
 <div class="form-container">
 <h2 class="form-title">Student Admission Form</h2>
 <form id="admissionForm" autocomplete="off" novalidate>
-<!-- Full Name Input -->
+
 <div class="form-group">
 <label for="fullName" class="form-label">Full Name</label>
 <input type="text" id="fullName" class="form-input" placeholder="John Doe" required>
 <p id="fullNameError" class="error-message"></p>
 </div>
-<!-- Email Input -->
+
 <div class="form-group">
 <label for="email" class="form-label">Email Address</label>
 <input type="email" id="email" class="form-input" placeholder="john.doe@example.com" required>
 <p id="emailError" class="error-message"></p>
 </div>
-<!-- Date of Birth Input -->
+
 <div class="form-group">
 <label for="dateOfBirth" class="form-label">Date of Birth</label>
 <input type="date" id="dateOfBirth" class="form-input" required>
 <p id="dateOfBirthError" class="error-message"></p>
 </div>
-<!-- Course Selection -->
+
 <div class="form-group">
 <label for="course" class="form-label">Select Course</label>
 <select id="course" class="form-select" required>
@@ -129,7 +129,7 @@ display: none;
 </select>
 <p id="courseError" class="error-message"></p>
 </div>
-<!-- Terms and Conditions Checkbox -->
+
 <div class="checkbox-group">
   <input type="checkbox" id="terms" class="form-checkbox" required>
   <label for="terms" class="checkbox-label">
@@ -137,24 +137,24 @@ display: none;
   </label>
 </div>
 <p id="termsError" class="error-message"></p>
-<!-- Submit Button -->
+
 <div class="form-group">
 <button type="submit" class="submit-button">
 Submit Admission
 </button>
 </div>
 </form>
-<!-- Success Message -->
+
 <div id="success-message" class="hidden">
 <p>Form submitted successfully! We'll be in touch soon.</p>
 </div>
 </div>
 <script>
-// Get the form element
+
 const admissionForm = document.getElementById('admissionForm');
-// Get the success message element
+
 const successMessage = document.getElementById('success-message');
-// Add an event listener for form submission
+
 admissionForm.addEventListener('submit', function(event) {
 event.preventDefault();
 if (validateForm()) {
@@ -165,10 +165,7 @@ admissionForm.reset();
 successMessage.classList.add('hidden');
 }
 });
-/**
-* Validates all form fields.
-* @returns {boolean} - True if all fields are valid, false otherwise.
-*/
+
 function validateForm() {
 let isValid = true;
 const fullNameInput = document.getElementById('fullName');
@@ -181,14 +178,14 @@ const emailError = document.getElementById('emailError');
 const dateOfBirthError = document.getElementById('dateOfBirthError');
 const courseError = document.getElementById('courseError');
 const termsError = document.getElementById('termsError');
-// --- Full Name Validation ---
+
 if (fullNameInput.value.trim() === '') {
 fullNameError.textContent = 'Full Name is required.';
 isValid = false;
 } else {
 fullNameError.textContent = '';
 }
-// --- Email Validation ---
+
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 if (emailInput.value.trim() === '') {
 emailError.textContent = 'Email Address is required.';
@@ -199,7 +196,7 @@ isValid = false;
 } else {
 emailError.textContent = '';
 }
-// --- Date of Birth Validation ---
+
 const dobValue = dateOfBirthInput.value;
 if (dobValue === '') {
 dateOfBirthError.textContent = 'Date of Birth is required.';
@@ -214,14 +211,14 @@ isValid = false;
 dateOfBirthError.textContent = '';
 }
 }
-// --- Course Selection Validation ---
+
 if (courseSelect.value === '') {
 courseError.textContent = 'Please select a course.';
 isValid = false;
 } else {
 courseError.textContent = '';
 }
-// --- Terms and Conditions Validation ---
+
 if (!termsCheckbox.checked) {
 termsError.textContent = 'You must agree to the terms and conditions.';
 isValid = false;
@@ -230,7 +227,7 @@ termsError.textContent = '';
 }
 return isValid;
 }
-// Clear error messages after successful submission
+
 function clearErrors() {
 document.getElementById('fullNameError').textContent = '';
 document.getElementById('emailError').textContent = '';
@@ -240,4 +237,5 @@ document.getElementById('termsError').textContent = '';
 }
 </script>
 </body>
+
 </html>
